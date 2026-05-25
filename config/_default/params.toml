@@ -2,7 +2,7 @@
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
-favicon        = "img/favicon.png"
+favicon        = "img/favicon-head.svg"
 
 # Accepted values: "default", "lastmod"
 # default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
@@ -11,14 +11,14 @@ SortBy              = "default"
 
 [footer]
     since      = 2026
-    customText = ""
+    customText = "建设中……"
 
 [dateFormat]
-    published   = ":date_full"
-    lastUpdated = ":date_full"
+    published   = "2006-01-02 Mon"
+    lastUpdated = "2006-01-02 Mon"
 
 [sidebar]
-    emoji    = "🫥"
+    emoji    = "🌥️"
     subtitle = "为什么做了这个博客呢"
     avatar   = "img/head.png"
 
@@ -36,7 +36,6 @@ SortBy              = "default"
         { type = "search" },
         { type = "archives", params = { limit = 5 } },
         { type = "categories", params = { limit = 10 } },
-        { type = "tag-cloud", params = { limit = 10 } },
     ]
     page = [{ type = "toc" }]
 
@@ -51,7 +50,22 @@ SortBy              = "default"
 ## Comments
 [comments]
     enabled  = true
-    provider = "disqus"
+    provider = "giscus"
+
+    [comments.giscus]
+        repo             = "DoL1ME/dol1me-blog"
+        repoID           = "R_kgDOSnEk9g"
+        category         = "General"
+        categoryID       = "DIC_kwDOSnEk9s4C9z_f"
+        mapping          = "pathname"
+        lightTheme       = "light"
+        darkTheme        = "dark_dimmed"
+        reactionsEnabled = true
+        emitMetadata     = false
+        inputPosition    = "top"
+        lang             = "zh"
+        strict           = false
+        loading          = "lazy"
 
     # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
     # Copy the configurations you need from there and paste it here.

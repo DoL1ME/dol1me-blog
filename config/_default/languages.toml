@@ -6,7 +6,7 @@
     title        = "DoL1ME"
     weight       = 1    
 
-[en]
-    label     = "English"
-    title     = "Example Site"
-    weight    = 2
+# [en]
+#     label     = "English"
+#     title     = "Example Site"
+#     weight    = 2

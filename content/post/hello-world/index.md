@@ -5,16 +5,14 @@ slug: hello-world
 date: 2026-05-25 00:00:00+0000
 image: cover.jpg
 categories:
-    - Example Category
-tags:
-    - Example Tag
+    - history
+# tags:
+#     - 历史
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!
+你好，我是dolime。</br>
+这是我使用hugo + github pages搭建并部署的个人博客，目前正在持续建设中。后续我将根据搭建本博客的经历和经验制作一份搭建同款博客的教程，敬请期待。
 
-For more information about this theme, check the documentation: https://stack.jimmycai.com/
-
-Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
-
-> Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/)
+如果你想进一步了解该博客使用的hugo主题，请前往：[hugo-theme-stack](https://stack.jimmycai.com/)</br>
+如果你想快速开始制作同款个人博客，请前往：[hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
