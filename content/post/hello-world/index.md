@@ -1,8 +1,8 @@
 ---
-title: Hello World
-description: Welcome to Hugo Theme Stack
+title: 开始页
+description: 做了一个博客，这是为什么呢？
 slug: hello-world
-date: 2022-03-06 00:00:00+0000
+date: 2026-05-25 00:00:00+0000
 image: cover.jpg
 categories:
     - Example Category

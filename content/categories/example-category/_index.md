@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: 历程
+description: 这个博客发生了什么
 image:
 
 # Badge style

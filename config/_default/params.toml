@@ -18,9 +18,9 @@ SortBy              = "default"
     lastUpdated = ":date_full"
 
 [sidebar]
-    emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    avatar   = "img/avatar.png"
+    emoji    = "🫥"
+    subtitle = "为什么做了这个博客呢"
+    avatar   = "img/黑猫头像.png"
 
 [article]
     headingAnchor = false
