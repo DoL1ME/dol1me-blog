@@ -10,7 +10,7 @@ favicon        = "img/favicon.png"
 SortBy              = "default"
 
 [footer]
-    since      = 2020
+    since      = 2026
     customText = ""
 
 [dateFormat]
@@ -20,7 +20,7 @@ SortBy              = "default"
 [sidebar]
     emoji    = "🫥"
     subtitle = "为什么做了这个博客呢"
-    avatar   = "img/黑猫头像.png"
+    avatar   = "img/head.png"
 
 [article]
     headingAnchor = false
